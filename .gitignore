@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+*.env
+.env.*
+
+# Byte-compiled / optimized files
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Cache / temp files
+.cache/
+.tmp/
+*.tmp
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+.pytest_cache/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# mypy / type checking
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# FastAPI specific
+# (if using static or uploaded files)
+staticfiles/
+media/
+uploads/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# Optional: exclude compiled requirements
+requirements*.txt.lock
+
+# Optional: exclude local SQLite DB (if not shared)
+*.db
+*.sqlite3
